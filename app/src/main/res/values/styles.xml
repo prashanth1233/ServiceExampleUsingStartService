@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MyTheme">
+        <item name="android:colorPrimaryDark">#0026ff</item>
+        <item name="android:colorPrimary">#00ff66</item>
+        <item name="android:navigationBarColor">#92ff4400</item>
+        <item name="android:textColorPrimary">@color/prashanth</item>
+    </style>
+
+    <style name="strtBttn" parent="android:Widget.Button">
+    <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:text">START SERVICE</item>
+        <item name="android:textColor">#ff4400</item>
+    </style>
+
+    <style name="stpBttn" parent="@style/strtBttn">
+        <item name="android:text">STOP BUTTON</item>
+        <item name="android:textColor">#b54c00ff</item>
+    </style>
+
+</resources>
